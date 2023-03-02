@@ -9,12 +9,13 @@
 body {
  height: 100vh;
  width: 100vw;
- background-color: #292424;
+ background-color: #fecea8;
  overflow: hidden;
+ padding-top: 30px;
 }
 
 .navigation {
- background-color: #171717;
+ background-color: #ff847c;
  top: 0;
  left: 0;
  right: 0;
@@ -23,6 +24,11 @@ body {
  justify-content: space-between;
  padding: 0.25rem;
  z-index: 100;
+ box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.006),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.032), 12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.059),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.065),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 .logo img {
@@ -52,7 +58,7 @@ body {
 }
 
 .login {
- background-color: rgb(181, 184, 186);
+ background-color: #99b898;
  padding: 1rem;
  min-width: 400px;
  min-height: 400px;
@@ -62,6 +68,11 @@ body {
  align-items: center;
  flex-direction: column;
  position: relative;
+ box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.006),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.032), 12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.059),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.065),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 .container {
@@ -117,9 +128,11 @@ body {
  height: 30px;
  border-radius: 5px;
  cursor: pointer;
+ background-color: #2a363b;
+ color: white;
 }
 
 .login-button button:hover {
- color: white;
- background-color: rgb(24, 23, 23);
+ color: black;
+ background-color: white;
 }
