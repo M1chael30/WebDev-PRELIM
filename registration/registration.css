@@ -11,7 +11,7 @@ body {
  width: 100vw;
  background-color: #fecea8;
  overflow: hidden;
- padding-top: 55px;
+ padding-top: 40px;
 }
 
 .navigation {
@@ -65,7 +65,6 @@ body {
  background-color: white;
 }
 
-
 .registration {
  background-color: #99b898;
  padding: 1rem;
@@ -90,4 +89,35 @@ body {
  align-items: center;
  width: 100vw;
  height: 100vh;
+}
+
+.registration-title {
+ position: absolute;
+ left: 30px;
+ top: 10px;
+}
+
+.form {
+ margin-bottom: 30px;
+ margin-top: 30px;
+}
+
+.form-inside input {
+ border-radius: 5px;
+ border: none;
+ outline: none;
+ margin-left: 20px;
+}
+
+.form-inside input::placeholder {
+ padding: 10px;
+}
+
+.form-inside .gender-div{
+ display: flex;
+}
+
+.form-inside {
+  font-size: 1.20rem;
+
 }
