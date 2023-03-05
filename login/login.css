@@ -33,6 +33,8 @@ body {
 
 .logo img {
  width: 10%;
+ align-items: center;
+ display: flex;
  margin-left: 1rem;
 }
 

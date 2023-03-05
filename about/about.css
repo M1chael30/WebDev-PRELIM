@@ -11,7 +11,13 @@ body {
  width: 100vw;
  background-color: #fecea8;
  overflow: hidden;
- padding-top: 30px;
+ padding-top: 4rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100vw;
+ height: 100vh;
+ flex-direction: column;
 }
 
 .navigation {
@@ -53,52 +59,7 @@ body {
 }
 
 .container {
- display: flex;
- justify-content: center;
- align-items: center;
- width: 100vw;
- height: 100vh;
-}
-
-.table,
-tr,
-td,
-th {
- border-collapse: collapse;
- border: 1px solid #171717;
- padding: 1rem;
- text-align: center;
- color: #171717;
-}
-
-.table {
- margin-top: 30px;
- width: 95%;
-}
-
-.table-container {
- background-color: #99b898;
- padding: 1rem;
- min-width: 800px;
- min-height: 450px;
- border-radius: 5px;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- position: relative;
- box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.006),
-  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.032), 12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.059),
-  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.065),
-  100px 100px 80px rgba(0, 0, 0, 0.07);
-}
-
-.title-table {
- color: #171717;
- position: absolute;
- top: 10px;
- left: 20px;
+ margin-bottom: 20px;
 }
 
 .nav-links {
@@ -113,9 +74,9 @@ th {
  list-style-type: none;
 }
 
-.nav-links ul li:hover{
-  border-radius:25% 75% 32% 68% / 41% 35% 65% 59%;
-  background-color: #fecea8; 
+.nav-links ul li:hover {
+ border-radius: 25% 75% 32% 68% / 41% 35% 65% 59%;
+ background-color: #fecea8;
 }
 
 .nav-links ul {
@@ -140,7 +101,7 @@ th {
 
 .nav-links a {
  color: #171717;
- font-size: 1.20rem;
+ font-size: 1.2rem;
  text-decoration: none;
 }
 
@@ -153,7 +114,40 @@ th {
  color: white;
 }
 
-.button:hover{
-  color: #2a363b;
-  background-color: white;
+.button:hover {
+ color: #2a363b;
+ background-color: white;
+}
+
+.container-inside {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem;
+ color: #171717;
+}
+
+.side-one img {
+ width: 70%;
+ border-radius: 20px;
+}
+
+.side-one,
+.side-two {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.side-two {
+ flex-direction: column;
+}
+
+hr{
+ border: 1px solid #171717;
+ width: 98%;
+}
+
+.footer small {
+ color: #171717;
 }
